@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata :
+  name: cka-app1-pod
+  lables:
+    app: cka-app1
+    type: front-end
+spec:
+  containers:
+    - name: cka-app1
+      image : nginx
